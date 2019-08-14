@@ -1,29 +1,29 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>17.0</Version>
+<Version>18.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
+<Refnum>
+<Name>Modem COM Port</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
 <String>
-<Name>HW Refnum &lt;Replace Me&gt;</Name>
+<Name>Signal In</Name>
 <Val></Val>
 </String>
-<EW>
-<Name>Signal Type &lt;Replace Me&gt;</Name>
-<Choice>Sine Wave</Choice>
-<Choice>Square with Noise</Choice>
-<Val>0</Val>
-</EW>
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
 <NumElts>2</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dev\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\dev\Documents\LabVIEW Data\Logged Data.csv</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
@@ -33,42 +33,120 @@
 </Cluster>
 <Cluster>
 <Name>UI Refs</Name>
-<NumElts>6</NumElts>
+<NumElts>19</NumElts>
 <Refnum>
-<Name>Start Ref</Name>
+<Name>Download Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFD700137</Val>
+<Val>0x00000000</Val>
 </Refnum>
 <Refnum>
-<Name>Settings Ref</Name>
+<Name>Cancel Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFDA0011E</Val>
-</Refnum>
-<Refnum>
-<Name>Stop Ref</Name>
-<RefKind>LV Object</RefKind>
-<RefType>Control</RefType>
-<Val>0xFD80011D</Val>
+<Val>0x00000000</Val>
 </Refnum>
 <Refnum>
 <Name>Exit Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFD900046</Val>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>IP or Phone Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
 </Refnum>
 <Refnum>
 <Name>Status Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFE2000FB</Val>
+<Val>0x00000000</Val>
 </Refnum>
 <Refnum>
 <Name>Data Ref</Name>
 <RefKind>LV Object</RefKind>
 <RefType>Control</RefType>
-<Val>0xFE3000EF</Val>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>IP Address Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Port Number Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Phone Number Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Modem COM Port Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Username Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Password Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Start Date Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>End Date Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Log File Path Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Download Medium Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Station ID Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Connected LED Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
+</Refnum>
+<Refnum>
+<Name>Error LED Ref</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x00000000</Val>
 </Refnum>
 </Cluster>
 </Cluster>
